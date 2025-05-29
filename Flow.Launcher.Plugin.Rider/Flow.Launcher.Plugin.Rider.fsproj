@@ -3,20 +3,20 @@
     <PropertyGroup>
         <TargetFramework>net7.0-windows</TargetFramework>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+        <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
     </PropertyGroup>
-
-    <ItemGroup>
-        <Compile Include="Main.fs" />
-    </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="Flow.Launcher.Plugin" Version="4.4.0" />
     </ItemGroup>
 
     <ItemGroup>
+      <Compile Include="Main.fs" />
       <Content Include="plugin.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
+      <None Include="TestHost.fsx" />
     </ItemGroup>
 
 </Project>
