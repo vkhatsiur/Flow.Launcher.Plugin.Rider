@@ -1,4 +1,4 @@
-﻿namespace Flow.Launcher.Plugin.Rider
+﻿namespace Flow.Launcher.Plugin.JetBrains
 
 open System
 open System.Collections.Generic
@@ -26,7 +26,7 @@ module RecentSolutionsReader =
         |> Seq.distinct
         |> Seq.filter File.Exists
 
-type RiderPlugin() =
+type JetBrainsPlugin() =
 
     let mutable initContext = PluginInitContext()
 

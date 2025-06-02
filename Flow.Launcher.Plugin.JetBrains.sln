@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Flow.Launcher.Plugin.Rider", "Flow.Launcher.Plugin.Rider\Flow.Launcher.Plugin.Rider.fsproj", "{E3D055F2-1B4D-49D8-916E-B4FC15D21F31}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Flow.Launcher.Plugin.JetBrains", "Flow.Launcher.Plugin.JetBrains\Flow.Launcher.Plugin.JetBrains.fsproj", "{E3D055F2-1B4D-49D8-916E-B4FC15D21F31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
