@@ -12,6 +12,9 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Compile Include="RecentSolutionsReader.fs" />
+      <Compile Include="WindowsRegistry.fs" />
+      <Compile Include="JetBrainsService.fs" />
       <Compile Include="Main.fs" />
       <Content Include="plugin.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
